@@ -1,0 +1,28 @@
+.footer {
+  height: 21rem;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+.footer-logo {
+  margin-bottom: 3rem;
+}
+.footer-title {
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 3.4rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 425px) {
+  .footer-logo {
+    margin-bottom: 2rem;
+  }
+  .footer-title {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,40 @@
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 10rem;
+  color: #ff6060;
+}
+.logo {
+  width: 21rem;
+  height: 6.8rem;
+}
+.navList {
+  display: flex;
+  justify-content: flex-end;
+}
+.navItem {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-left: 5rem;
+}
+.navItem:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+  .mainHeader {
+    margin: 2rem 2rem;
+  }
+  .logo {
+    width: 16rem;
+    height: 5.2rem;
+  }
+  .navItem {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left: 1.5rem;
+    text-transform: uppercase;
+  }
+}

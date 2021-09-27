@@ -22,12 +22,12 @@ export default class Card extends Component {
     return (
       <section className="housing-container">
         {data &&
-          Object.values(data).map(function (elt, idx) {
+          Object.values(data).map(function (elt) {
             return (
               <Link to={`/Logement/${elt.id}`} key={elt.id}>
                 <div className="card">
                   <div className="card-filter"></div>
-                  <img className="card-img" src={elt.cover} alt="" />
+                  <img className="card-img" src={elt.cover} alt={elt.title} />
                   <h2 className="card-title">{elt.title}</h2>
                 </div>
               </Link>

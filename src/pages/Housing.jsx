@@ -78,7 +78,7 @@ export default class Housing extends Component {
                     <p className="housing__host-name">{data.host.name}</p>
                     <img
                       src={data.host.picture}
-                      alt=""
+                      alt={data.host.name}
                       className="housing__host-picture"
                     />
                   </div>

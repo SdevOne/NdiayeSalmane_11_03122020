@@ -1,16 +1,18 @@
 import { createGlobalStyle } from "styled-components"
 
 const StyledGlobalStyle = createGlobalStyle`
-    * {
+* {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
 }
-
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
+}
+#root{
+  min-height:100vh;
 }
 a {
   text-decoration: none;
@@ -31,9 +33,7 @@ main{
     margin-right:2rem;
   }
 }
-
 `
-
 export function GlobalStyle() {
   return <StyledGlobalStyle />
 }

@@ -1,10 +1,12 @@
 .footer {
   height: 21rem;
-  margin-top: 4rem;
+  margin-top: 8rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: sticky;
+  top: 100%;
   background: #000;
 }
 .footer-logo {
@@ -17,7 +19,6 @@
   line-height: 3.4rem;
   text-align: center;
 }
-
 @media screen and (max-width: 425px) {
   .footer-logo {
     margin-bottom: 2rem;

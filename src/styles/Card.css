@@ -33,6 +33,7 @@
   object-fit: cover;
 }
 .card-title {
+  height: 5rem;
   width: 70%;
   color: #fff;
   margin-left: 2rem;

@@ -6,7 +6,7 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <img className="footer-logo" src={logo2} alt="" />
+        <img className="footer-logo" src={logo2} alt="kasa" />
         <p className="footer-title">© 2020 Kasa. All rights reserved</p>
       </footer>
     )
